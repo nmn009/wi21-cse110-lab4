@@ -37,7 +37,22 @@
     F. true because Boolean(2) will return true so true === true ( same value and same type)
 16. The different is `==` only compare the value and `===` compare the value and type of the variables.
 17. It will print How are you? because the condition 2==true is false so it go to second condition which is (2) which is always true   
-18.     
+19. modifyArray([1,2,3], doSomething)
+        newArr = []
+        i = 0
+          doSomething(1,fucntion(x)) --> x = 1 + 2 = 3 --> function(3) = 6 --> newArr = [6]
+        i = 1
+          doSomething(2,function(x)) --> x = 2 + 2 = 4 --> function(4) = 8 --> newArr = [6,8]
+        i = 2
+          doSomething(3,function(x)) --> x = 3 + 2 = 5 --> function(5) = 10 --> newArr = [6,8,10]
+    Therefore, the result is [6,8,10]
+21. 1
+    4
+    3
+    2
+    
+    
+            
     
     
     
